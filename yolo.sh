@@ -5,6 +5,8 @@ sudo apt install google-chrome-stable
 
 # Install Git
 sudo apt-get install git
+git config --global user.email "vivian.sarazin@gmail.com"
+git config --global user.name "VivianSolide"
 
 # Install Visual Studio Code
 sudo dpkg -i vscode-amd64.deb
