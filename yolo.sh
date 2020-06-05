@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt update && sudo apt upgrade
-sudo apt install software-properties-common apt-transport-https wget curl ca-certificates gnupg-agent
+sudo apt install xclip software-properties-common apt-transport-https wget curl ca-certificates gnupg-agent
 
 # Install Brave
 curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
